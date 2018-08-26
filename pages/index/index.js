@@ -31,5 +31,20 @@ Page({
       }
     ]
   },
-
+  kindToggle: function(e) {
+    //获取当前点击条目的id
+    var currentId = e.currentTarget.id;
+    //获取data中list集合
+    var list = this.data.list;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id == currentId) {
+        list[i].open = !list[i].open;
+      } else {
+        list[i].open = false;
+      }
+    }
+    this.setData({
+      list: list,
+    });
+  }
 })

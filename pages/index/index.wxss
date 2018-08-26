@@ -20,10 +20,11 @@
 
 .kind-list__item-hd {
   padding: 20px;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3S;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2S;
 }
 
-.kind-list_item-hd_show {
+.kind-list__item-hd_show {
+  /* 不透明度 */
   opacity: 0.4;
 }
