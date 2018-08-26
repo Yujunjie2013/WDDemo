@@ -1,0 +1,54 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.page_bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page_hd {
+  padding: 40px;
+}
+
+.page_title {
+  /* 标题 */
+  font-size: 20px;
+  /* 定义字体的粗细、默认是normal、还有bold */
+  font-weight: 400;
+  text-align: left;
+}
+
+.page_bd {
+  /* 内容 */
+  margin-bottom: 40px;
+}
+
+.page_desc {
+  /* 描述内容 */
+  color: #888;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.page_ft {
+  /* 脚布局 */
+  text-align: center;
+  padding-bottom: 10px;
+}
